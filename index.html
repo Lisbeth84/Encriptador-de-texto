@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./estilos/reset.css">
+    <link rel="stylesheet" href="./estilos/loader.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+
+    <!-- Principal -->
+    <main>
+        <section class="contenedor_izquierdo">
+            <textarea class="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador-botones">
+                <button type="submit" class="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" class="btn-desencriptar">DESENCRIPTAR</button>
+            </div>
+        </section>
+        <section class="contenedor_derecho">
+           <div class="contenedor-texto">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">COPIAR</button>
+         </section>  
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 | Made by Lisbeth</p> <br>
+        <a href="https://www.linkedin.com/in/lisbeth-callata-churata" rel="" target="_blank">
+            <img src="./imagenes/icon-linkedin.png" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/lisbeth-callata" rel="" target="_blank">
+            <img src="./imagenes/icon-github.png" alt="Logo Github" class="git">
+        </a>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+@media(max-width: 760px){
+
+    main {
+        padding: 10rem;
+        flex-direction: column;
+        height: auto; 
+    }   
+    .contenedor_izquierdo {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .contenedor_derecho{
+        width: 100%;
+        height: 26rem;
+        margin: 10px 0;
+        
+        
+    }
+    .contenedor-texto{
+        width: 100%;
+        position: absolute;
+        bottom: 60%; 
+             
+    }
+    
+    .input-texto {
+        height: 26rem;
+        font-size: 1.8rem;        
+    }
+    .encriptador-aviso {
+        top: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        position: relative; /* Cambiado de absolute a relative */
+    }
+    .texto-aviso{
+        font-size: 10px;
+    }
+    .img-aviso{
+        width: 5%;
+    }
+    footer {
+        font-size: 1rem;        
+    }
+}
+
+@media(max-width: 1024px){
+    main {
+        padding: 10rem;
+        flex-direction: column;
+        height: auto; 
+        
+    }
+    
+    .contenedor_izquierdo {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .encriptador-aviso {
+        top: auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        position: relative;
+    }
+    .contenedor_derecho{
+        width: 100%;
+        height: 26rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 10px 0;
+    }
+    .contenedor-texto{
+        width: 100%;
+        position: absolute;
+        bottom: 60%;        
+    }
+    .input-texto {
+        height: 26rem;
+        font-size: 1.8rem;
+        
+    }
+    .encriptador-botones{
+        flex-direction: column;
+    }
+    .btn-encriptar, .btn-desencriptar {
+        width: 100%;
+        margin: 10px 0;
+        font-size: 10px;
+    }
+    .btn-copiar {
+        width: calc(100% - 20px);
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .evaluar{
+        width: 100%;
+        height: 100%;
+    }
+    footer {
+        margin-bottom: 2rem;
+    }
+    
+}
