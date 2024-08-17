@@ -60,7 +60,7 @@ A continuación se muestra una imagen del encriptador:
 
 ## **Link del Proyecto**
 
-Puedes ver una demo en vivo del proyecto aquí: [**Encriptador de Texto 🔗**](https://lisbeth-callata.github.io/Encriptador-de-texto/){:target="_blank"}
+Puedes ver la demo del proyecto aquí: <a href="https://lisbeth-callata.github.io/Encriptador-de-texto/" target="_blank"><strong>Encriptador de Texto 🔗</strong></a>
 
 ---
 
