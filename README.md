@@ -67,7 +67,7 @@ Puedes ver la demo del proyecto aquí: <a href="https://lisbeth-callata.github.i
 ## **Contacto**
 
 <a href="mailto:lisbeth2536@gmail.com"><img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Gmail" width="30" height="30"/></a>
-<a href="https://www.linkedin.com/in/tu-perfil" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn" width="30" height="30"/></a>
+<a href="https://www.linkedin.com/in/lisbeth-callata-churata/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="LinkedIn" width="30" height="30"/></a>
 <a href="https://github.com/lisbeth-callata" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="30" height="30"/></a>
 
 ---
